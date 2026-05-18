@@ -1,16 +1,26 @@
-# React + Vite
+# Streakly
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A habit tracking web application built with React and Supabase.
 
-Currently, two official plugins are available:
+## Live Demo
+[streakly-xxx.vercel.app](streakly-nine.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- User authentication (signup, login, logout)
+- Create and delete habits
+- Check off habits daily with streak tracking
+- Completion rate per habit
+- XP and level system
+- Analytics dashboard with streak leaderboard
+- Protected routes — only logged in users can access the app
 
-## React Compiler
+## Tech Stack
+- **Frontend:** React, React Router, Vite
+- **Backend:** Supabase (Auth, PostgreSQL database)
+- **Deployment:** Vercel
+- **Styling:** CSS with custom properties
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Database Schema
+- `profiles` — stores username, XP, and level per user
+- `habits` — stores habit name, color, streak, and rate per user
+- `completions` — stores daily habit completions
