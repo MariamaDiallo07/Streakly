@@ -1,0 +1,121 @@
+/* .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--bg-card);
+    gap: 13px;
+    border: 1px solid  var(--border) ;
+    width: 340px;
+    padding: 32px;
+    border-radius: 12px;
+    
+}
+
+.login-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card input {
+    width: 100%;
+    background: #08080F;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 12px;
+    color: var(--text);
+    font-size: 13px;
+    outline: none;
+    
+}
+
+.card input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px var(--bg-main) inset;
+    -webkit-text-fill-color: var(--text);
+}
+
+.card button {
+    width: 100%;
+    padding: 10px;
+    background: #7C3AED;
+    color: var(--text);
+    border: none;
+    border-radius: 8px;
+    font-size: 13px;
+    cursor: pointer;
+} */
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--bg-main);
+}
+
+.card {
+    background: var(--bg-card);
+    border: 0.5px solid var(--border);
+    border-radius: 16px;
+    padding: 36px 32px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card h1 {
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--text);
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.card input {
+    width: 100%;
+    box-sizing: border-box;
+    background: var(--bg-main);
+    border: 0.5px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 12px;
+    color: var(--text);
+    font-size: 13px;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.card input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #08080F inset;
+    -webkit-text-fill-color: #E2E2EF;
+}
+
+.card button:first-of-type {
+    width: 100%;
+    padding: 10px;
+    background: var(--accent);
+    color: var(--text);
+    border: none;
+    border-radius: 8px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+
+.card button:last-of-type {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    color: var(--text-muted);
+    border: 0.5px solid var(--border);
+    border-radius: 8px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+
+.card p {
+    font-size: 12px;
+    text-align: center;
+}

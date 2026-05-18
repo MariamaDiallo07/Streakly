@@ -1,0 +1,92 @@
+/* .profiles-card{
+    display: flex; */
+    /* min-height: 100vh;
+    align-items: center;
+    justify-content: center; */
+/* } */
+
+/* .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background:  var(--bg-card);
+    width: 340px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+}
+.cards input {
+    width: 100%;
+    background: #08080F;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    padding: 10px 12px;
+    color: var(--text);
+    font-size: 13px;
+    outline: none;
+
+}
+
+.cards button {
+    background:#7C3AED;
+    width: 100%;
+    border: none;
+    border-radius: 13px;
+    font-size: 13px;
+    color: var(--text);
+    padding: 10px;
+    cursor: pointer;
+} */
+
+.settings-page {
+    max-width: 600px;
+}
+
+.settings-card {
+    background: var(--bg-card);
+    border: 0.5px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 12px;
+}
+
+.settings-section-label {
+    font-size: 10px;
+    color: var(--text-muted);
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    margin-bottom: 16px;
+}
+
+.settings-input {
+    width: 100%;
+    box-sizing: border-box;
+    background: var(--bg-main);
+    border: 0.5px solid var(--border);
+    border-radius: 8px;
+    padding: 9px 12px;
+    color: var(--text);
+    font-size: 13px;
+    outline: none;
+}
+
+.settings-btn {
+    padding: 9px 16px;
+    border-radius: 8px;
+    background: var(--bg-main);
+    border: 0.5px solid var(--border);
+    color: var(--text-muted);
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.logout-btn {
+    padding: 9px 16px;
+    border-radius: 8px;
+    background: transparent;
+    border: 0.5px solid #5A2020;
+    color: #F87171;
+    font-size: 13px;
+    cursor: pointer;
+}

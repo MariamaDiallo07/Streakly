@@ -1,0 +1,46 @@
+.habit-row{
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.habit-info{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.habit-name{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text);
+}
+
+.delete-btn {
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 6px 10px;
+    color: var(--text-muted);
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.color-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.habit-name-row{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

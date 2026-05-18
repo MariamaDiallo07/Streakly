@@ -1,0 +1,23 @@
+:root {
+  --bg-main: #08080F;
+  --bg-card: #0B0B17;
+  --accent: #7C3AED;
+  --accent-light: #A78BFA;
+  --text: #E2E2EF;
+  --text-muted: #4A4A62;
+  --border: #18182A;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-main);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,30 @@
+.progress-text{
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+}
+
+.today-row{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 18px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 8px;
+    transition: border-color 0.15s;
+}
+.today-row:hover{
+    border-color: var(--accent);
+}
+.today-page{
+    max-width: 700px;
+}
+.today-page h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--text);
+    margin-bottom: 4px;
+}
