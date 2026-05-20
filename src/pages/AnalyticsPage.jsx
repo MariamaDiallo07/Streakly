@@ -74,7 +74,7 @@ export default function AnalyticsPage () {
         </div>
     </div>
 
-    {/* Rate bars */}
+    {/* the bars */}
     <div className="analytics-card">
         <div className="analytics-label">HABIT COMPLETION RATE</div>
         {habits.map(h => (
